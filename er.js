@@ -66,14 +66,18 @@ zonda1.style.borderRadius = '20px'
 zonda1.style.float = 'left';
 body1.append(zonda1);
 
+//makes the about us text in h3
 let txt = document.createElement('h3');
 txt.textContent = "The Pagani Zonda stands as a monument to the pursuit of automotive perfection, its lineage steeped in the passion and ingenuity of its creator, Horacio Pagani. Emerging from the fertile imagination of this Argentine-Italian visionary, the Zonda made its indelible mark on the hypercar landscape when it debuted in 1999. Pagani, a former composites specialist at Lamborghini, infused the Zonda with a profound understanding of aerodynamics and materials science, drawing inspiration from aerospace engineering and his experiences with the formidable F-16 fighter jet. This influence is evident in the Zonda's sleek lines, sculpted to slice through the air with minimal resistance while exuding an aura of power and elegance. Beneath its sinuous carbon fiber skin lies a marvel of engineering, with a chassis engineered for unparalleled rigidity and agility. Powering this automotive masterpiece are handcrafted engines sourced from Mercedes-AMG, each meticulously tuned to deliver a symphony of performance that stirs the soul. But the Zonda is more than just a feat of engineering; it is a testament to craftsmanship, with each component meticulously handcrafted by skilled artisans in Pagani's atelier in Italy. From the exquisite leather-clad interior to the intricately machined aluminum accents, every detail reflects a commitment to excellence that transcends mere transportation. Indeed, to own a Pagani Zonda is to possess a work of art—a fusion of technology and artistry that ignites the senses and captures the imagination.";
 txt.style.fontSize = '25px';
 body1.append(txt)
 
+//creates the footer and adds the copyright text
 let footer = document.createElement('footer');
 footer.style.padding = '40px';
 footer.style.backgroundColor = '#B57EDC';
+footer.textContent = 'Rights Reserved Vedant Singh';
+footer.style.textAlign = 'center';
 document.body.append(footer);
 
 
